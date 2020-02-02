@@ -16,3 +16,5 @@ docker run --name alamasad84/microblog -d -p 8000:5000 --rm -e SECRET_KEY=my-sec
 
 
 Remember to allow for 3rd party authentication and access in your google settings
+
+
