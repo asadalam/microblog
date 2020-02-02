@@ -1,0 +1,9 @@
+# Ignore everything in this directory
+user.html.bak
+old_base.html.bak
+index.html.bak
+login.html.bak
+post.html.bak
+*~ #all temp files with a tilde (~) at the end
+# Except this file
+!.gitignore

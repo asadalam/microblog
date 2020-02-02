@@ -1,0 +1,5 @@
+# Ignore everything in this directory
+register.html.bak
+\#register.html#
+# Except this file
+!.gitignore
