@@ -10,8 +10,6 @@ docker run --name alamasad84/microblog -d -p 8000:5000 --rm -e SECRET_KEY=my-sec
     -e MAIL_USERNAME=<your-gmail-username> -e MAIL_PASSWORD=<your-gmail-password> \
     --link mysql:dbserver \
     -e DATABASE_URL=mysql+pymysql://microblog:<database-password>@dbserver/microblog \
-    --link elasticsearch:elasticsearch \
-    -e ELASTICSEARCH_URL=http://elasticsearch:9200 \
     microblog:latest
 
 
